@@ -1,147 +1,80 @@
-display-flex,
-.display-flex,
-.display-flex-center,
-.content {
-    display: flex;
-    display: -webkit-flex;
+body{
+    background: whitesmoke;
 }
-
-img {
-    max-width: 50%;
-    height: auto;
-}
-
-figure {
-    margin: 0;
-}
-
-h1 {
-    line-height: 1.66;
+*{
     margin: 0;
     padding: 0;
-    font-weight: bold;
-    color: black;
-    font-family: Tahoma; 
-    font-size: 45px;
+    box-sizing: content-box;
 }
-
-.main {
-    background:cornsilk;
-    padding: 150px 0;
-}
-
-
-
-body {
-    font-size: 10px;
-    line-height: 1.8;
-    color: #222;
-    background: #f8f8f8;
-    font-weight: 400;
-    font-family:Cambria;
-}
-.container {
-    width: 900px;
-    background: #fff;
-    margin: 0 auto;
-    box-shadow: 0px 15px 16.83px 0.17px rgba(91, 74, 74, 0.05);
- }
-
-  .position-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
- }
- .Signup{
-    margin-bottom: 120px;
-    color:black
- }
- .content{
-    padding-top: 80px;
-    padding-bottom: 0px;
- }
- .Sign-up form{
-    width: 50%;
-    overflow: visible;
-}
-.Sign-up Image{
-    width:auto;
-    margin:0 50px;
-    width: 500px;
-    height: 100px;
-}
-.Title{
-    margin-bottom: 50px;
+/* header{
+    
+} */
+header> h1{
+    background-color: rgb(219, 219, 246);
     text-align: center;
-    font-size:large ;
+    margin-top: 12%;
 }
-.form-button{
-    display:inline-block;
-    background:rgba(0, 0, 255, 0.269); 
-    border-style: dotted;
-    border-width: 2px;
-    color: black;
-    height: 30px;
-    width: 100px;
-    cursor: pointer;}
-    .form-button:hover{
-        background: blueviolet;
-    }
-
-.TermsService{
-    display: inline-block;
-    width: auto;
+.score-board{
+    border: 1.5px dotted rgb(96, 93, 93);
+    width: 200px ;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
 }
-figure {
-    margin-bottom: 50px;
-    text-align:center; }
-.Sign-up form{
-    margin: 0px 75px;
-    padding-left: 80px;
-
-}
-.register-form{
-    width: 100%;}
-
-input{
-    width:120%;
-    display: block;
-    border: none;
-    border-bottom: 2px solid black;
-    padding: 6px 30px;
-    font-family: 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-
-}
-input:hover{
-    background-color: aliceblue;
-}
-.form{
-    position: relative;
-    margin-bottom: 20px;
-    overflow: visible;
-}
-.form:last-child{
-    margin-bottom: 0px;
-}
-.TermsnC{
-    display: inline-block;
-    width: auto;
-}
-label{
+/* .badge{
+    background-color: rgb(219, 69, 69);
+    color:whitesmoke;
+    font-size: 14px;
+    margin: 5px 10px;
+    width: 29%;
+} */
+#user{
     position: absolute;
-    left: 0;
-    top:25%;
-    color: black;
+    color: aliceblue;
+    background-color: red;
+    font-size: 14px;
+
+    top:220px;
+    left: 39%;
+    width: 69px;
 }
-.TermsCond{
-    position: relative;
-    top:25%;
+#comp{position: absolute;
+    top:220px;
+    left: 55%;
+    width: 70px;
+    background-color: red;
+    color: white;
+    font-size:14px ;
+
 }
-.Sign-up Image{
-    font-size: large;
+.result{
+    font-size: 30px;
+    color: #000;
 }
+.result > p{
+    text-align: center;
+    font-weight: bold;
 
-
-
-
+}
+.choices{
+    text-align: center;
+    margin: 50px 0;
+}
+.choice{
+   padding: 10px;
+    display: inline-block;
+    margin: 0 15px;
+}
+#rock{
+    top:300px;
+}
+#message{
+    font-size: 30px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.choice:hover{
+    background-color: azure;
+    cursor: pointer;
+}
