@@ -1,46 +1,80 @@
+body{
+    background: whitesmoke;
+}
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: content-box;
 }
-
-body{
-    background-color: whitesmoke;
-    color:black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-}
-.stopwatch{
-    background-color: rgb(211, 221, 223);
-    padding: 30px 30px;
-    border-radius: 10px;
+/* header{
     
+} */
+header> h1{
+    background-color: rgb(219, 219, 246);
+    text-align: center;
+    margin-top: 12%;
 }
-.timerDisplay{
-    font-size: 50px;
-    font-weight: bold;
-}
-.buttons{
-    margin-top: 20px;
-    
-
-}
-.btn{
+.score-board{
+    border: 1.5px dotted rgb(96, 93, 93);
+    width: 200px ;
+    margin: 20px auto;
     font-size: 20px;
-    background:none;
-    border: none;
-    color:whitesmoke;
-    background-color: var(--colour);
-    padding: 12px 24px; 
-    margin-inline: 8px;  
-    border-radius: 5px;
-    cursor: pointer;
+    text-align: center;
+    height: 50px;
 }
-.badge{
-    background-color: black;
-    color: ;
+/* .badge{
+    background-color: rgb(219, 69, 69);
+    color:whitesmoke;
+    font-size: 14px;
+    margin: 5px 10px;
+    width: 29%;
+} */
+#user{
+    position: absolute;
+    color: aliceblue;
+    background-color: red;
+    font-size: 14px;
+
+    top:220px;
+    left: 39%;
+    width: 69px;
+}
+#comp{position: absolute;
+    top:220px;
+    left: 55%;
+    width: 70px;
+    background-color: red;
+    color: white;
+    font-size:14px ;
+
+}
+.result{
+    font-size: 30px;
+    color: #000;
+}
+.result > p{
+    text-align: center;
+    font-weight: bold;
+
+}
+.choices{
+    text-align: center;
+    margin: 50px 0;
+}
+.choice{
+   padding: 10px;
+    display: inline-block;
+    margin: 0 15px;
+}
+#rock{
+    top:300px;
+}
+#message{
+    font-size: 30px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.choice:hover{
+    background-color: azure;
+    cursor: pointer;
 }
