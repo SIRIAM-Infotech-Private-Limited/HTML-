@@ -1,0 +1,18 @@
+JAVASCRIPT BASIC EVENTS
+
+click---onclick
+Doubleclick---ondbclick
+Right click--- oncontextmenu
+
+Mouse Hover---onmouseenter
+Mouse Out---onmouseout
+Mouse Down---onmousedown
+Mouse up---onmouseup
+
+key Press---onkeyPress
+Key up---onkeyup
+
+Load---onload
+Unload---onunload
+Resize---onresize
+Scroll---onscroll

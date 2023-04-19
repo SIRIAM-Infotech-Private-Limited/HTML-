@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <script>
+        // function demo(){
+        //     document.write("Hello");
+        // }
+        // demo();
+        
+        
+        // Function with Parameters
+        //  function Demo(fname = "Mausomi", lname = "paul"){
+        //     document.write("Hello " + fname +" " + lname + "<br>");
+
+        // }
+        // function sum(a, b){
+        //     document.write(a + b);
+        // }
+        // Demo(" Ram" , " Singh");
+        // Demo("Salman" ,  "Khan");
+        // sum(20, 50);
+      
+
+        // Function with return value
+        // function fullname(fname = "Mausomi", lname = "Paul" ){
+        //     var a =fname + " " + lname;
+
+        //     return a;
+        // }
+
+        // var fn = fullname("Ram", "Singh");
+        // document.write(fn);
+
+        function sum(math,eng, sci){
+            var s= math+eng+sci;
+
+            return s;
+        }
+        var result= sum(80,80, 80);
+        // document.write(result);
+        Percentage(result);
+
+
+        function Percentage(total){
+            var per = total/300 * 100;
+            document.write(per)
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

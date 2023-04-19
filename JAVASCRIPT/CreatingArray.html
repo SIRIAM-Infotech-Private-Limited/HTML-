@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Method of Creating Array</title>
+
+    <script>
+        var arr = new Array(3);
+
+        for(var g = 0; g<3; g++){
+            arr[g]= prompt("Enter the value: ");
+        }
+        //arr[0] = 10;
+        //arr[1] = Sneha;
+        //arr[3] = true;
+        //arr[5] = false;
+        document.write("<ul>");
+        for (var i = 0; i < 3; i++) {
+            document.write("<li>" + arr[i] + "</li>");
+        }
+        document.write("</ul>");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
