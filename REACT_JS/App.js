@@ -1,25 +1,23 @@
-//State with functional component
-
-import { useState } from 'react'
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import ComponentC from './Components/ComponentC';
 
-
-
+export const UserContext = React.createContext()
+export const titleContext = React.createContext()
 function App() {
-  const [data, setData] = useState(0)
-  function updateData() {
-    setData(data+1)
-  }
-
   return (
     <div className="App">
-      <h1>{data}</h1>
       
-      <button onClick={updateData} >Update Data</button>
+      <UserContext.Provider value={'Mausomi'}>
+        <titleContext.Provider value={'Paul'}>
+          <ComponentC />
+
+        </titleContext.Provider>
+        
+      </UserContext.Provider>
+      
     </div>
   );
 }
-
 
 export default App;
